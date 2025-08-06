@@ -586,4 +586,5 @@ function rgbToHex(rgb: string): string {
   const hex = `#${((1 << 24) + (r << 16) + (g << 8) + b).toString(16).slice(1)}`
   console.log('🎨 Converted to hex:', hex)
   return hex
+  }
 }
